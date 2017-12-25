@@ -24,7 +24,7 @@ def extractNumbers(s)
 end
 
 
-input_s = gets.chop
+input_s = gets.chomp
 zipped_s = zipping(input_s)
 first, second = extractNumbers(zipped_s)
 print "#{first + second}\n"
